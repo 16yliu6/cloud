@@ -1,0 +1,32 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yliu/spring_cloud_config.git
+          username: yliu
+          password: wWxd2018.
+#        health:
+#          repositories:
+#            label: master
+#            name: microservice-foo
+#            profiles: dev
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
