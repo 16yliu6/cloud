@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/yliu/spring_cloud_config.git
+          uri: https://github.com/16yliu6/spring_cloud_config.git
           username: yliu
           password: wWxd2018.
 #        health:
