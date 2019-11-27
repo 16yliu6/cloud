@@ -7,7 +7,7 @@ import www.yliu.com.pojo.Product;
 
 import java.util.List;
 
-@FeignClient(value = "PRODUCT-DATA-SERVICE")
+@FeignClient(value = "PRODUCT-DATA-SERVICE",fallback = ProductClientFeignHystrix.class)
 public interface ProductClientFeign {
 
     @RequestMapping("/products")

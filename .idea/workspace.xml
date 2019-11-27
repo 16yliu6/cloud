@@ -2,16 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99986e65-3dcb-41d8-b55a-ea9754f2304b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-view-service-ribbon/src/main/java/www/yliu/com/component/ProductClientFeignHystrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-view-service-ribbon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-view-service-ribbon/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-view-service-ribbon/src/main/java/www/yliu/com/ProductViewServiceRibbonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-view-service-ribbon/src/main/java/www/yliu/com/ProductViewServiceRibbonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-view-service-ribbon/src/main/java/www/yliu/com/component/ProductClientFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-view-service-ribbon/src/main/java/www/yliu/com/component/ProductClientFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-view-service-ribbon/src/main/java/www/yliu/com/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-view-service-ribbon/src/main/java/www/yliu/com/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-view-service-ribbon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-view-service-ribbon/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-view-service-ribbon/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-view-service-ribbon/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,6 +50,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="www.yliu.com.component" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/config-server/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
@@ -56,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigClientApplication">
+  <component name="RunManager" selected="Spring Boot.ProductDataApplication">
     <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="configClient" />
       <extension name="coverage">
@@ -96,11 +111,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="productDataservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="www.yliu.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="www.yliu.com.ProductDataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductViewServiceRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="productViewServiceRibbon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="www.yliu.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="www.yliu.com.ProductViewServiceRibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConfigClientApplication" />
-        <item itemvalue="Spring Boot.ConfigServerApplication" />
+        <item itemvalue="Spring Boot.ProductDataApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Spring Boot.ProductViewServiceRibbonApplication" />
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
+        <item itemvalue="Spring Boot.ConfigClientApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +158,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574740416614</updated>
       <workItem from="1574740419077" duration="1870000" />
-      <workItem from="1574749166950" duration="10667000" />
+      <workItem from="1574749166950" duration="16440000" />
     </task>
     <servers />
   </component>
