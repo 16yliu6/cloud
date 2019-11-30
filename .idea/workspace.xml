@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99986e65-3dcb-41d8-b55a-ea9754f2304b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-view-service-ribbon/src/main/java/www/yliu/com/component/ProductClientFeignHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/hystrixdashboard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/src/main/java/www/yliu/com/ProductServicehystrixDashboardApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/src/main/java/www/yliu/com/util/AccessViewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-view-service-ribbon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-view-service-ribbon/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/classes/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/classes/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-view-service-ribbon/src/main/java/www/yliu/com/ProductViewServiceRibbonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-view-service-ribbon/src/main/java/www/yliu/com/ProductViewServiceRibbonApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-view-service-ribbon/src/main/java/www/yliu/com/component/ProductClientFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-view-service-ribbon/src/main/java/www/yliu/com/component/ProductClientFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-view-service-ribbon/src/main/java/www/yliu/com/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-view-service-ribbon/src/main/java/www/yliu/com/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-view-service-ribbon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-view-service-ribbon/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-view-service-ribbon/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-view-service-ribbon/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-view-service-ribbon/target/classes/www/yliu/com/ProductViewServiceRibbonApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-view-service-ribbon/target/classes/www/yliu/com/ProductViewServiceRibbonApplication.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,9 +45,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -71,16 +75,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductDataApplication">
-    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="configClient" />
+  <component name="RunManager" selected="Application.AccessViewService">
+    <configuration name="AccessViewService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="www.yliu.com.util.AccessViewService" />
+      <module name="hystrixdashboard" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="www.yliu.com.*" />
+          <option name="PATTERN" value="www.yliu.com.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="www.yliu.com.ConfigClientApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,19 +102,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="www.yliu.com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="www.yliu.com.EurekaServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProductDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="productDataservice" />
       <extension name="coverage">
@@ -120,6 +111,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="www.yliu.com.ProductDataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServicehystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hystrixdashboard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="www.yliu.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="www.yliu.com.ProductServicehystrixDashboardApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ProductDataApplication" />
-        <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Application.AccessViewService" />
+        <item itemvalue="Spring Boot.ProductServicehystrixDashboardApplication" />
         <item itemvalue="Spring Boot.ProductViewServiceRibbonApplication" />
+        <item itemvalue="Spring Boot.ProductDataApplication" />
         <item itemvalue="Spring Boot.ConfigServerApplication" />
-        <item itemvalue="Spring Boot.ConfigClientApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +163,9 @@
       <updated>1574740416614</updated>
       <workItem from="1574740419077" duration="1870000" />
       <workItem from="1574749166950" duration="16440000" />
+      <workItem from="1574818158475" duration="132000" />
+      <workItem from="1575103840187" duration="605000" />
+      <workItem from="1575142044872" duration="3854000" />
     </task>
     <servers />
   </component>
